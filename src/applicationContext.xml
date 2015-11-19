@@ -26,9 +26,9 @@
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-		<property name="url" value="jdbc:mysql://localhost:3306/db_crm"/>
+		<property name="url" value="jdbc:mysql://123.56.158.150:3306/db_health_gather?useUnicode=true&amp;characterEncoding=UTF-8"/>
 		<property name="username" value="root"/>
-		<property name="password" value="123456"/>
+		<property name="password" value="root"/>
 	</bean>
 
 	<!-- 配置mybatis的sqlSessionFactory -->

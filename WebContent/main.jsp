@@ -44,7 +44,10 @@
 <div region="center">
 	<div class="easyui-tabs" fit="true" border="false" id="tabs">
 		<div title="首页" data-options="iconCls:'icon-home'">
-			<div align="center" style="padding-top: 100px"><font color="red" size="10">欢迎使用</font></div>
+			<div align="center" style="padding-top: 100px"><font color="red" size="10">
+				<a href="javascript:openTab('记录打卡','punchRecords.jsp','icon-yxjhgl')" class="easyui-linkbutton" data-options="plain:true,iconCls:'icon-yxjhgl'" style="width: 250px;height: 150px;text-align: center;">记录打卡</a>
+			
+			</font></div>
 		</div>
 	</div>
 </div>
@@ -83,7 +86,7 @@
 	</div>
 </div>
 <div region="south" style="height: 25px;padding: 5px" align="center">
-	版本所有 java知识分享网 <a href="http://www.java1234.com" target="_blank">http://www.java1234.com</a>(2013-2015)
+	版本所有 java知识分享网 <a href="http://www.wuxingliang.com" target="_blank">http://www.wuxingliang.com</a>(2013-2015)
 </div>
 </body>
 </html>
