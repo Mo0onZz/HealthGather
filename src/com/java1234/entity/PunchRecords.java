@@ -7,6 +7,7 @@ public class PunchRecords {
 	private Integer id; // 编号
 	private Date date; // 编号
 	private String place; // 编号
+	private String state;
 	public Integer getId() {
 		return id;
 	}
@@ -24,6 +25,12 @@ public class PunchRecords {
 	}
 	public void setPlace(String place) {
 		this.place = place;
+	}
+	public String getState() {
+		return state;
+	}
+	public void setState(String state) {
+		this.state = state;
 	}
 	
 }
