@@ -14,6 +14,7 @@ public class User {
 	private String email; // 邮件
 	private String phone; // 联系电话
 	private String roleName; // 角色名称 系统管理员 销售主管 客户经理 高管
+	private String platform;
 	
 	public Integer getId() {
 		return id;
@@ -56,6 +57,12 @@ public class User {
 	}
 	public void setRoleName(String roleName) {
 		this.roleName = roleName;
+	}
+	public String getPlatform() {
+		return platform;
+	}
+	public void setPlatform(String platform) {
+		this.platform = platform;
 	}
 	
 	

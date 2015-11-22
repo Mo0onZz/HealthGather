@@ -24,10 +24,7 @@ public class PunchRecordsController {
 	@RequestMapping("/save")
 	public String save(PunchRecords punchRecords,HttpServletResponse response)throws Exception{
 		int resultTotal=0; 
-		System.err.println("save进来了！！");
 		punchRecords.setDate(new Date());
-		punchRecords.setPlace("上课的肌肤");
-		punchRecords.setState("1");
 		resultTotal = service.add(punchRecords);
 		JSONObject result=new JSONObject();
 		if(resultTotal>0){

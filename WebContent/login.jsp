@@ -69,10 +69,7 @@ A:active {
 			alert("密码不能为空！");
 			return;
 		}
-		if(roleName==null||roleName==""){
-			alert("请选择用户类型！");
-			return;
-		}
+ 
 		$("#adminlogin").submit();			
 		
 	}

@@ -51,6 +51,9 @@ public class UserController {
 		}else{
 			HttpSession session=request.getSession();
 			session.setAttribute("currentUser", resultUser);
+			if("mobile".equals(user.getPlatform())){
+				return "redirect:/index_mobile.html";
+			}
 			return "redirect:/main.jsp";
 		}
 	}
